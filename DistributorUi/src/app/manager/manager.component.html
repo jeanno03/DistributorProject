@@ -1,0 +1,100 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+
+
+
+<div class="container">
+	<div class="row">
+		<aside class="col-sm-6">
+
+			<article class="card">
+				<div class="card-body p-5">
+
+					<p class="alert alert-success">Example JsonB</p>
+
+					<div>
+						<div class="form-group">
+
+
+								<div class="row">
+										<div class="col-sm-8">
+											<div class="form-group">
+												<div class="form-inline">
+														<select class="form-control" (change)="selectChangeCoin($event)" >
+<!-- 																<option disabled>
+															<p>Choisir pièce</p>
+														</option> -->
+														<option>Choisir pièce</option>
+														<option *ngFor="let c of coins" value="{{c}}" >{{c}}</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+
+							<label for="username">Nb minimum de pièces</label>
+							<div >
+
+								<input type="number" class="form-control" placeholder="choisir nb..." required [formControl]="nbCoin">
+							</div>
+							<br />
+							<div class="row">
+								<div class="col-sm-8">
+									<div class="form-group">
+
+										<div class="form-inline">
+											<select class="form-control" (change)="selectChangeDrink($event)" selected="Choisir boisson">
+<!-- 												<option disabled>
+													<p>Choisir boisson</p>
+												</option> -->
+												<option>Choisir boisson</option>
+												<option *ngFor="let d of drinks" value={{d.name}}>{{d.name}}</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<label for="username">Nb minimum de boissons</label>
+							<div class="input-group">
+								<!-- <input type="text" class="form-control" name="username" placeholder="" required="" value="{{nbDrink}}"> -->
+								<input type="number" class="form-control" placeholder="choisir nb..." required [formControl]="nbDrink">
+							</div>
+						</div>
+						<button class="subscribe btn btn-primary btn-block" type="button" (click)="submitJsonBRequest()"> Confirm </button>
+					</div>
+				</div> <!-- card-body.// -->
+			</article> <!-- card.// -->
+		</aside> <!-- col.// -->
+
+		<aside class="col-sm-6">
+			<div id="cardDetail" class="container">
+				<div class="row">
+
+					<div>
+						<div class="card-box">
+							<div class="card-title">
+								<h2>Résultat : {{distributorSize}}</h2>
+							</div>
+							<div class="card-link">
+								<ul class="list-group" *ngFor="let d of distributors">
+									<li class="list-group-item list-group-item-info">{{d.name}}</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+
+
+
+	</div> <!-- row.// -->
+</div>
+<!--container end.//-->
+
+<br><br>
+<article class="bg-secondary mb-3">
+	<div class="card-body text-center">

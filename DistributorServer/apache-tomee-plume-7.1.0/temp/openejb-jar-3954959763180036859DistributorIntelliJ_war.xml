@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<openejb-jar xmlns="http://www.openejb.org/openejb-jar/1.1">
+    <properties></properties>
+    <ejb-deployment container-id="Default Stateless Container" deployment-id="DistributorManagerEJB" ejb-name="DistributorManagerEJB"/>
+    <ejb-deployment container-id="Default Stateful Container" deployment-id="JwtManagerEJB" ejb-name="JwtManagerEJB"/>
+    <ejb-deployment container-id="Default Managed Container" deployment-id="DistributorIntelliJ_war.Comp946131837" ejb-name="DistributorIntelliJ_war.Comp"/>
+</openejb-jar>

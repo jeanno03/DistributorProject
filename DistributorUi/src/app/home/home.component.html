@@ -1,0 +1,97 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<span id="homeButtom1">
+<button type="button" class="btn btn-outline-success homeButton" (click)=generateDistributorDataTest()>Distributor data test</button>
+</span>
+<button type="button" class="btn btn-outline-success homeButton" (click)=getAllDistributors()>Get distributors</button>
+<button type="button" class="btn btn-outline-success homeButton" (click)=generateMyUsers()>MyUser Data Test</button>
+<button type="button" class="btn btn-outline-success homeButton" (click)=getAllMyUsers()>Get My Users</button>
+
+<div class="row">
+<div class="col-sm-6">
+<div id="myUser-table" *ngIf="distributors">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">N°</th>
+        <th scope="col">Nom</th>
+
+        <th scope="col">Détails</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let d of distributors">
+        <td scope="row">{{d.id}}</td>
+        <td>{{d.name}}</td>
+
+        <td><button type="button" class="btn btn-outline-success" (click)=getDistributorDetails(d)>Go</button></td>
+        
+      </tr>
+
+    </tbody>
+  </table>
+  </div>
+  </div>
+  <div class="col-sm-6">
+  <td *ngIf="distributor!=null">
+
+<!-- début -->
+<div id="cardDetail" class="container">
+    <div class="row">
+
+        <div>
+            <div class="card-box">
+                <div class="card-title">
+                    <h2>{{distributor.name}}</h2>
+                    <p>Caisse : {{coin.amount}} €</p>
+                </div>
+                <div class="card-link">
+                    <ul class="list-group" *ngFor="let l of line">
+                        <li class="list-group-item list-group-item-info">{{l.drinkJson.drink.name}} - Prix : {{l.drinkJson.price}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+<!-- fin -->
+  </td>
+</div>
+</div>
+<div id="myUser-table" *ngIf="myUsers">
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">N°</th>
+      <th scope="col">Login</th>
+      <th scope="col">E-mail</th>
+      <th scope="col">Roles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let m of myUsers">
+      <th scope="row">{{m.id}}</th>
+      <td>{{m.login}}</td>
+      <td>{{m.email}}</td>
+      <td><button type="button" class="btn btn-outline-success" (click)=displayMyRole(m)>Go</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div id="myRole-table" *ngIf="myRoleJsonHashSet">
+<table class="table table-striped text-center">
+  <thead>
+    <tr>
+      <th scope="col">Role(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let m of myRoleJsonHashSet.myRoles">
+      <td>{{m}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+

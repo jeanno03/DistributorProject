@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-10">
+            <h2>Mes appareils</h2>
+            <p>Mis à jour : {{lastUpdate | async | date : 'd MMM yyyy' | uppercase}}</p>
+        </div>
+        <div class="col-xs-2">
+            <button id="disconnectButton" class="btn btn-danger" *ngIf="authStatus" (click)="onSignOut()">Se déconnecter</button>
+        </div>
+    </div>
+    <div class="row">     
+      <div class="col-xs-12">
+        <ul class="list-group">
+              <app-appareil 
+                *ngFor="let a of appareils;
+                let i = index"
+                [appareilName]="a.name"
+                [appareilStatus]="a.status"
+                [index]="i"
+                [name]="a.name"
+                ></app-appareil>
+        </ul>
+        <br/>
+        <button id="globalButton" class="btn btn-success"
+                [disabled]="!isAuth"
+                (click)="onAllumer()">Tout allumer</button>
+        <button id="globalButton" class="btn btn-danger"
+                [disabled]="!isAuth"
+                (click)="onEteindre()">Tout éteindre</button>        
+      </div>
+    </div>
+    </div>

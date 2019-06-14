@@ -1,0 +1,13 @@
+<li [ngClass]="{
+  'list-group-item':true,
+  'list-group-item-info' : getPostLoveIts()===0,
+  'list-group-item-success' : getPostLoveIts()>0,
+  'list-group-item-danger' : (getPostLoveIts()<0)
+}">
+  <h3>{{postTitle}} - {{postCreated_at | async | date : ' d/MM/yyyy'}}</h3>
+  <p>{{postContent}}</p>
+  <p>
+    <button id="loveButton" type="button" class="btn btn-success" (click)="getLove()" type="submit">Love it!</button>
+    <button id="loveButton" type="button" class="btn btn-danger" (click)="getHate()" type="submit">Don't love it!</button>
+  </p>
+</li>

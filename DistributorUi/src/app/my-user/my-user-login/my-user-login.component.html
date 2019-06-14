@@ -1,0 +1,24 @@
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+    <div class="container">
+        <div class="card card-container">
+            <img class="profile-img-card" src="https://lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" />
+
+            <p id="profile-name" class="profile-name-card"></p>
+
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus [formControl]="login">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required [formControl]="password">
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <button (click)="submitConnexion()" class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+
+            <a href="#" class="forgot-password">
+                Forgot the password?
+            </a>
+        </div>
+    </div>
