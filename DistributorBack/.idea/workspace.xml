@@ -6,7 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c773490-600b-46dd-8b3a-717d55c16dd3" name="Default Changelist" comment="" />
+    <list default="true" id="8c773490-600b-46dd-8b3a-717d55c16dd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DistributorBack.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/DistributorBack.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/temp/OpenEJB-ah1e6ddqdq2k2zhdx5elmh0i2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistributorUi/src/app/open-class-room/appareil-view-simple/appareil-view-simple.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorUi/src/app/open-class-room/appareil-view-simple/appareil-view-simple.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistributorUi/src/app/open-class-room/appareil-view-simple/appareil-view-simple.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorUi/src/app/open-class-room/appareil-view-simple/appareil-view-simple.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistributorUi/src/app/open-class-room/appareil-view/appareil-view.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorUi/src/app/open-class-room/appareil-view/appareil-view.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistributorUi/src/app/open-class-room/service/appareil.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorUi/src/app/open-class-room/service/appareil.service.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/entities/Distributor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#0#53#1" expanded="true" />
@@ -193,6 +202,9 @@
       <find>em.flush();</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -270,12 +282,12 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -468,9 +480,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/distributor/boundary" />
@@ -604,18 +618,18 @@
       <workItem from="1560285238242" duration="660000" />
       <workItem from="1560324856761" duration="738000" />
       <workItem from="1560414965386" duration="3047000" />
-      <workItem from="1560536923773" duration="630000" />
+      <workItem from="1560536923773" duration="1024000" />
+      <workItem from="1560588952512" duration="895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176072000" />
+    <option name="totallyTimeSpent" value="177361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.26012793" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.26279318" />
       <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.25266525" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.5016129" side_tool="true" weight="0.25266525" />
@@ -626,7 +640,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3261105" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.42036837" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.42036837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3943662" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1146,7 +1160,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/entities/Distributor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#0#53#1" expanded="true" />

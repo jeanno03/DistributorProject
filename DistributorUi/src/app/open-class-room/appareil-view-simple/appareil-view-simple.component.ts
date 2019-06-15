@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AppareilService } from '../service/appareil.service';
 import { ActivatedRoute } from '@angular/router';
+import { Observable, Subject, interval, Subscription  } from 'rxjs';
 
 @Component({
   selector: 'app-appareil-view-simple',
@@ -12,6 +13,9 @@ export class AppareilViewSimpleComponent implements OnInit {
   appareil:any=[];
   name:any;
   paramName : any;
+
+  secondes:number;
+  counterObservable:Subscription;
 
   constructor(
     private appareilService:AppareilService,
@@ -25,6 +29,29 @@ export class AppareilViewSimpleComponent implements OnInit {
     this.appareilService.setAppareilName(this.name, this.paramName);
     this.appareil.name = this.appareilService.getAppareilByName(this.paramName).name;
     this.appareil.status = this.appareilService.getAppareilByName(this.paramName).status;
+
+    this.getCounterObservable();
+
+  }
+
+  getCounterObservable(){
+    const counter = interval(1000);
+    this.counterObservable = counter.subscribe( 
+      (data) => {
+        this.secondes=data;   
+      },      
+      (error) => {
+        console.log("error : " + error);
+      },
+      ()=>{
+        console.log("observable complete!");
+      }
+    );
+  }
+
+  // empêche les comportements inattendus liés aux Observables infinis, 
+  ngOnDestroy(){
+    this.counterObservable.unsubscribe();
   }
 
 }
