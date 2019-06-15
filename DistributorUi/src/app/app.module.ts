@@ -19,8 +19,10 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 
 
 // https://appdividend.com/2018/12/14/angular-7-routing-and-sub-routing-tutorial-with-example/
-// shift + alt + a pour commenter le code
+// shift + alt + a pour commenter le code (windows)
+// ctrl + k + c/u pour commenter le code (linux)
 // https://modev.net/angular-6-implement-auth-guard-to-your-project/
+// ctrl + shift + i pour formater (linux)
 @NgModule({
   declarations: [
     AppComponent,

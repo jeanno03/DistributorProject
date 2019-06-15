@@ -30,7 +30,6 @@ export class AppareilService {
   }
 
   getAppareils(){
-/*     this.emitAppareilSubject(); */
     return this.appareils;
   }
 
@@ -90,5 +89,15 @@ export class AppareilService {
     })
   }
 
-}
+  addAppareil(name:string, status:string){
+    const appareilObject = {
+      name:'',
+      status:''
+    };
+    appareilObject.name = name;
+    appareilObject.status = status;
+    this.appareils.push(appareilObject);
+    this.emitAppareilSubject();
+  }
 
+}

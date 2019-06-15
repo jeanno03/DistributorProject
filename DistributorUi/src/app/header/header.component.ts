@@ -5,7 +5,7 @@ import {
   CanActivate, 
   Router, 
   RouterStateSnapshot } from '@angular/router';
-import { Observable } from 'rxjs';
+import { Observable, Subscription } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 
 @Component({
@@ -17,17 +17,33 @@ import { map, take } from 'rxjs/operators';
 @Injectable()
 export class HeaderComponent implements OnInit {
 
+  tokenSubscription:Subscription;
+  token:string;
+
   constructor(
     private jwtServiceService: JwtServiceService,
     private router: Router
     ) { }
 
     ngOnInit() {
+      //display login or login at start
+      this.token=localStorage.getItem('token');
+      //display login or login when connect or disconnect
+      this.tokenSubscription=this.jwtServiceService.tokenSubject.subscribe(
+        (token:string)=>{
+          this.token=token;
+        }
+      )
     }
 
   logout(){
     this.jwtServiceService.toDisconnect();
+    this.jwtServiceService.emitTokenSubject();
     this.router.navigate( ["/myUser/login"] );
+  }
+
+  ngOnDestroy(){
+    this.tokenSubscription.unsubscribe();
   }
 
 }

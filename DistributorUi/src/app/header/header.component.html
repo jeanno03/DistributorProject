@@ -7,7 +7,8 @@
 
 <div class="navbar navbar-expand-md navbar-dark bg-dark mb-4" role="navigation">
     <a class="navbar-brand" href="#">Bootstrap 4 NavBar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -24,21 +25,22 @@
             <li class="nav-item">
                 <a class="nav-link" routerLink="/open-class-room/open-class-room-appareils">Appareils</a>
             </li>
+            <li>
+                <a class="nav-link" routerLink="/open-class-room/open-class-room-edit">Nouveau</a>
+            </li>
+            <li>
+                <a class="nav-link" routerLink="/open-class-room/open-class-room-users">Users</a>
+            </li>
             <li class="nav-item">
-                <a class="nav-link" 
-                routerLinkActive="active"
-                routerLink="/open-class-room/open-class-room-auth">Auth</a>
-            </li>      
+                <a class="nav-link" routerLinkActive="active"
+                    routerLink="/open-class-room/open-class-room-auth">Auth</a>
+            </li>
             <li class="nav-item">
-                <a class="nav-link" 
-                routerLinkActive="active"
-                routerLink="/open-class-room/blog-app">Blog</a>
-            </li>  
+                <a class="nav-link" routerLinkActive="active" routerLink="/open-class-room/blog-app">Blog</a>
+            </li>
         </ul>
-        <button class="btn btn-outline-success headerButton" routerLink="/myUser/login">login</button>
-        <button class="btn btn-outline-success headerButton" type="submit" (click)="logout()">logout</button>
+        <button class="btn btn-outline-success headerButton" routerLink="/myUser/login" *ngIf="!token">login</button>
+        <button class="btn btn-outline-success headerButton" type="submit" (click)="logout()"
+            *ngIf="token">logout</button>
     </div>
 </div>
-
-
-

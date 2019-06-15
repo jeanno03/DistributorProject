@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d0bf720-7116-4c48-8fb7-3317d9d14566" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/DistributorBack/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DistributorBack/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorBack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DistributorBack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorBack/DistributorBack.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorBack/target/DistributorBack.war" beforeDir="false" afterPath="$PROJECT_DIR$/DistributorBack/target/DistributorBack.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorBack/target/classes/META-INF/DistributorBack.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/bin/catalina.sh" beforeDir="false" afterPath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/bin/catalina.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/bin/shutdown.sh" beforeDir="false" afterPath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/bin/shutdown.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/bin/startup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/bin/startup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/conf/tomee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/conf/tomee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/RELEASE-NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/asf-logo-wide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/bg-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/bg-middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/bg-nav-item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/bg-nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/bg-upper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/tomcat-power.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/tomcat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/tomcat.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/tomcat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/ROOT/tomcat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/BUILDING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/RELEASE-NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/RUNNING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/aio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/api/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/build.xml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/deployment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/installation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/processes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/sample/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/sample/docs/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/sample/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/sample/sample.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/sample/src/mypackage/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/sample/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/sample/web/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/sample/web/images/tomcat.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/sample/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/appdev/web.xml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/apr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/architecture/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/architecture/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/architecture/requestProcess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/architecture/requestProcess/authentication-process.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/architecture/requestProcess/request-process.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/architecture/startup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/architecture/startup/serverStartup.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/architecture/startup/serverStartup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/balancer-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/building.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/cgi-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/changelog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/class-loader-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/cluster-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/ajp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/automatic-deployment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/cluster-channel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/cluster-deployer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/cluster-interceptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/cluster-listener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/cluster-manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/cluster-membership.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/cluster-receiver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/cluster-sender.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/cluster-valve.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/cluster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/context.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/cookie-processor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/credentialhandler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/engine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/executor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/globalresources.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/host.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/http.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/http2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/jar-scan-filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/jar-scanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/jaspic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/listeners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/loader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/realm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/resources.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/server.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/sessionidgenerator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/systemprops.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/config/valve.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/connectors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/default-servlet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/deployer-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/developers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/elapi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/extras.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/funcspecs/fs-admin-apps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/funcspecs/fs-admin-objects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/funcspecs/fs-admin-opers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/funcspecs/fs-default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/funcspecs/fs-jdbc-realm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/funcspecs/fs-jndi-realm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/funcspecs/fs-memory-realm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/funcspecs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/funcspecs/mbean-names.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/host-manager-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/html-host-manager-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/html-manager-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/add.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/asf-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/code.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/cors-flowchart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/design.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/docs-stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/docs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/fix.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/fonts/OpenSans400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/fonts/OpenSans400italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/fonts/OpenSans600.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/fonts/OpenSans600italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/fonts/OpenSans700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/fonts/OpenSans700italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/fonts/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/printer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/tomcat.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/tomcat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/tomcat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/update.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/images/void.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/jasper-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/jdbc-pool.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/jndi-datasource-examples-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/jndi-resources-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/jspapi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/logging.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/manager-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/maven-jars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/mbeans-descriptors-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/mbeans-descriptors.dtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/monitoring.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/proxy-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/realm-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/rewrite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/security-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/security-manager-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/servletapi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/setup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/ssi-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/ssl-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/tribes/developers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/tribes/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/tribes/interceptors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/tribes/introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/tribes/membership.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/tribes/setup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/tribes/status.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/tribes/transport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/virtual-hosting-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/web-socket-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/websocketapi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/windows-auth-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/docs/windows-service-howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/WEB-INF/jsp/401.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/WEB-INF/jsp/403.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/WEB-INF/jsp/404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/images/add.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/images/asf-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/images/code.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/images/design.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/images/docs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/images/fix.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/images/tomcat.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/images/update.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/images/void.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/host-manager/manager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/WEB-INF/jsp/401.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/WEB-INF/jsp/403.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/WEB-INF/jsp/404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/WEB-INF/jsp/connectorCerts.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/WEB-INF/jsp/connectorTrustedCerts.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/WEB-INF/jsp/sessionDetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/WEB-INF/jsp/sessionsList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/images/add.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/images/asf-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/images/code.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/images/design.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/images/docs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/images/fix.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/images/tomcat.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/images/update.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/images/void.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/status.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorServer/apache-tomee-plume-7.1.0/webapps/manager/xform.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorUi/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/DistributorUi/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorUi/src/app/my-user/my-user-login/my-user-login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DistributorUi/src/app/my-user/my-user-login/my-user-login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributorUi/src/service/jwt-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DistributorUi/src/service/jwt-service.service.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DistributorUi/src/service/jwt-service.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DistributorUi/src/app/my-user/my-user-login/my-user-login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DistributorUi/src/service/jwt-service.service.ts" />
+        <option value="$PROJECT_DIR$/DistributorUi/src/app/my-user/my-user-login/my-user-login.component.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/DistributorProject.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorBack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorBack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorBack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorBack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorBack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorUi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorUi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorUi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorUi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="my-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorUi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="my-user" type="462c0819:PsiDirectoryNode" />
+              <item name="my-user-login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorUi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="open-class-room" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Unknown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributorProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DistributorUi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DistributorBack" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d0bf720-7116-4c48-8fb7-3317d9d14566" name="Default Changelist" comment="" />
+      <created>1560607258497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560607258497</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1363" y="-1" width="1926" height="1084" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DistributorBack/src/main/java/com/JAXRSConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistributorUi/src/service/jwt-service.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistributorUi/src/app/my-user/my-user-login/my-user-login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

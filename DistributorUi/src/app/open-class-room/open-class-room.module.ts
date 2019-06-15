@@ -5,7 +5,7 @@ import { AppareilComponent } from './appareil/appareil.component';
 import { OpenClassRoomRoutingModule } from './open-class-room-routing.module';
 import { OpenClassRoomAppComponent } from './open-class-room-app/open-class-room-app.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BlogAppComponent } from './blog-app/blog-app.component';
 import { BlogPostComponent } from './blog-post/blog-post.component';
 import { AppareilService } from './service/appareil.service';
@@ -13,6 +13,9 @@ import { AuthComponent } from './auth/auth.component';
 import { AppareilViewComponent } from './appareil-view/appareil-view.component';
 import { AuthService } from './service/auth.service';
 import { AppareilViewSimpleComponent } from './appareil-view-simple/appareil-view-simple.component';
+import { EditAppareilComponent } from './edit-appareil/edit-appareil.component';
+import { UserService } from './service/user.service';
+import { UserListComponent } from './user-list/user-list.component';
 
 
 @NgModule({
@@ -24,15 +27,21 @@ import { AppareilViewSimpleComponent } from './appareil-view-simple/appareil-vie
     BlogPostComponent, 
     AuthComponent, 
     AppareilViewComponent, 
-    AppareilViewSimpleComponent],
+    AppareilViewSimpleComponent, 
+    EditAppareilComponent,
+    UserListComponent
+  ],
   imports: [
     CommonModule,
     OpenClassRoomRoutingModule,
     BrowserModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers:[
-    AppareilService,AuthService,
+    AppareilService,
+    AuthService,
+    UserService
   ]
 })
 export class OpenClassRoomModule { }

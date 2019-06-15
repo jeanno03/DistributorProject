@@ -3,6 +3,7 @@ import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms'
 import { JwtServiceService } from 'src/service/jwt-service.service';
 import { Router } from '@angular/router';
 import { Credential } from 'src/model/credential.model';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-my-user-login',
@@ -14,7 +15,6 @@ export class MyUserLoginComponent implements OnInit {
   login = new FormControl('');
   password = new FormControl('');
   form: FormGroup;   
-  private formSubmitAttempt: boolean;
 
   constructor(
     private jwtServiceService: JwtServiceService, 
@@ -31,9 +31,11 @@ export class MyUserLoginComponent implements OnInit {
 
     this.jwtServiceService.toConnectJwtPost(credential)
     .subscribe((resp: any) => {
-      localStorage.setItem('token', resp.token);
-      alert("vous etes connecté");
-      alert("token : " + localStorage.getItem('token'));
+      // localStorage.setItem('token', resp.token);
+      
+      this.jwtServiceService.toConnect(resp.token);
+      console.log("token : " + localStorage.getItem('token'));
+      this.jwtServiceService.emitTokenSubject();
       this.router.navigate(['/home']);
 
     }, err => {
