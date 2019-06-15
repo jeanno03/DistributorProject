@@ -16,6 +16,7 @@ import { AppareilViewSimpleComponent } from './appareil-view-simple/appareil-vie
 import { EditAppareilComponent } from './edit-appareil/edit-appareil.component';
 import { UserService } from './service/user.service';
 import { UserListComponent } from './user-list/user-list.component';
+import { NewUserComponent } from './new-user/new-user.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { UserListComponent } from './user-list/user-list.component';
     AppareilViewComponent, 
     AppareilViewSimpleComponent, 
     EditAppareilComponent,
-    UserListComponent
+    UserListComponent,
+    NewUserComponent
   ],
   imports: [
     CommonModule,

@@ -19,7 +19,7 @@
     jdbcDriver = org.postgresql.Driver
     jdbcUrl = jdbc:postgresql://localhost/distributor_intelli_j
 	userName = postgres
-    password = adm 
+    password = adm
   </Resource>
 
 </tomee>

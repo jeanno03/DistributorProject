@@ -5441,3 +5441,2855 @@ Hibernate:
 15-Jun-2019 21:55:09.304 INFOS [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: distributorDsNonJta
 15-Jun-2019 21:55:09.320 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
 15-Jun-2019 21:55:09.320 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Jun-2019 00:25:07.071 INFOS [main] org.apache.openejb.persistence.PersistenceBootstrap.getDefaultProvider Default JPA Provider changed to org.eclipse.persistence.jpa.PersistenceProvider specified by jar:file:/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/lib/openejb-core-eclipselink-7.1.0.jar!/META-INF/org.apache.openejb.persistence.PersistenceBootstrap.provider
+16-Jun-2019 00:25:09.474 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.32 (7.1.0)
+16-Jun-2019 00:25:09.474 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Jun 20 2018 19:50:35 UTC
+16-Jun-2019 00:25:09.474 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.32.0
+16-Jun-2019 00:25:09.474 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+16-Jun-2019 00:25:09.474 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            4.15.0-20-generic
+16-Jun-2019 00:25:09.474 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+16-Jun-2019 00:25:09.474 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/java/jdk1.8.0_181/jre
+16-Jun-2019 00:25:09.474 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_181-b13
+16-Jun-2019 00:25:09.475 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+16-Jun-2019 00:25:09.475 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+16-Jun-2019 00:25:09.475 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+16-Jun-2019 00:25:09.475 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/conf/logging.properties
+16-Jun-2019 00:25:09.475 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Jun-2019 00:25:09.475 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/lib/openejb-javaagent.jar
+16-Jun-2019 00:25:09.475 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Jun-2019 00:25:09.476 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Jun-2019 00:25:09.476 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Jun-2019 00:25:09.476 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+16-Jun-2019 00:25:09.476 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+16-Jun-2019 00:25:09.477 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+16-Jun-2019 00:25:09.477 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/temp
+16-Jun-2019 00:25:09.477 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jun-2019 00:25:10.584 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+16-Jun-2019 00:25:10.627 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+16-Jun-2019 00:25:10.750 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jun-2019 00:25:10.761 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+16-Jun-2019 00:25:12.928 INFOS [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+16-Jun-2019 00:25:13.152 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+16-Jun-2019 00:25:13.152 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+16-Jun-2019 00:25:13.153 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sun Jun 16 00:25:13 CEST 2019
+16-Jun-2019 00:25:13.153 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+16-Jun-2019 00:25:13.153 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.1.0
+16-Jun-2019 00:25:13.153 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20180902
+16-Jun-2019 00:25:13.153 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 09:50
+16-Jun-2019 00:25:13.153 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+16-Jun-2019 00:25:13.153 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+16-Jun-2019 00:25:13.153 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+16-Jun-2019 00:25:13.158 INFOS [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@60704c
+16-Jun-2019 00:25:13.158 INFOS [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+16-Jun-2019 00:25:13.245 INFOS [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/conf/tomee.xml'
+16-Jun-2019 00:25:13.308 INFOS [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+16-Jun-2019 00:25:13.310 INFOS [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+16-Jun-2019 00:25:13.311 INFOS [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=distributorDs, type=Resource, provider-id=Default JDBC Database)
+16-Jun-2019 00:25:13.327 INFOS [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+16-Jun-2019 00:25:13.330 INFOS [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+16-Jun-2019 00:25:13.438 INFOS [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+16-Jun-2019 00:25:13.569 INFOS [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=distributorDs)
+16-Jun-2019 00:25:14.931 INFOS [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+16-Jun-2019 00:25:15.285 INFOS [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+16-Jun-2019 00:25:15.404 INFOS [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+16-Jun-2019 00:25:15.405 INFOS [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+16-Jun-2019 00:25:15.405 INFOS [main] org.apache.openejb.server.SimpleServiceManager.start -------
+16-Jun-2019 00:25:15.405 INFOS [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+16-Jun-2019 00:25:15.405 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 8220 ms
+16-Jun-2019 00:25:15.473 INFOS [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+16-Jun-2019 00:25:15.474 INFOS [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+16-Jun-2019 00:25:15.476 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Démarrage du service [Catalina]
+16-Jun-2019 00:25:15.476 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.32 (7.1.0)
+16-Jun-2019 00:25:15.498 INFOS [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Déploiement de l'archive [/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war.war] de l'application web
+16-Jun-2019 00:25:15.512 INFOS [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /DistributorBack_war
+16-Jun-2019 00:25:16.834 INFOS [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war
+16-Jun-2019 00:25:18.106 INFOS [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+16-Jun-2019 00:25:18.107 INFOS [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean DistributorBack_war.Comp881809494: Container(type=MANAGED, id=Default Managed Container)
+16-Jun-2019 00:25:18.107 INFOS [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+16-Jun-2019 00:25:18.117 INFOS [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/temp for stateful session passivation
+16-Jun-2019 00:25:18.148 INFOS [localhost-startStop-1] org.apache.openejb.config.AutoConfig.deploy Configuring PersistenceUnit(name=distributorDB, provider=org.hibernate.jpa.HibernatePersistenceProvider)
+16-Jun-2019 00:25:18.149 INFOS [localhost-startStop-1] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'distributorDsNonJta' of type 'DataSource for 'distributorDB'.
+16-Jun-2019 00:25:18.149 INFOS [localhost-startStop-1] org.apache.openejb.config.AutoConfig.deploy Configuring Service(id=distributorDsNonJta, type=Resource, provider-id=distributorDs)
+16-Jun-2019 00:25:18.149 INFOS [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=distributorDsNonJta)
+16-Jun-2019 00:25:18.300 INFOS [localhost-startStop-1] org.apache.openejb.config.AutoConfig.setNonJtaDataSource Adjusting PersistenceUnit distributorDB <non-jta-data-source> to Resource ID 'distributorDsNonJta' from 'null'
+16-Jun-2019 00:25:18.340 INFOS [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war" loaded.
+16-Jun-2019 00:25:18.344 INFOS [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war
+16-Jun-2019 00:25:18.465 INFOS [localhost-startStop-1] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@60704c
+16-Jun-2019 00:25:18.719 INFOS [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+16-Jun-2019 00:25:18.725 INFOS [localhost-startStop-1] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+16-Jun-2019 00:25:20.148 INFOS [localhost-startStop-1] org.apache.webbeans.config.BeansDeployer.validateInjectionPoints All injection points were validated successfully.
+16-Jun-2019 00:25:20.153 INFOS [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container has started, it took 1434 ms.
+16-Jun-2019 00:25:20.220 INFOS [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war)
+16-Jun-2019 00:25:20.883 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Jun-2019 00:25:22.092 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using readers:
+16-Jun-2019 00:25:22.092 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@121a938c
+16-Jun-2019 00:25:22.093 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@5f7ecbec
+16-Jun-2019 00:25:22.093 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@4c90fffe
+16-Jun-2019 00:25:22.093 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@55906fe7
+16-Jun-2019 00:25:22.093 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@1e7d6a1b
+16-Jun-2019 00:25:22.093 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@3775f393
+16-Jun-2019 00:25:22.093 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@79a0baea
+16-Jun-2019 00:25:22.093 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@246b7346
+16-Jun-2019 00:25:22.093 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@549b5412
+16-Jun-2019 00:25:22.093 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@39c4ca23
+16-Jun-2019 00:25:22.094 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@7f84b864
+16-Jun-2019 00:25:22.094 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using writers:
+16-Jun-2019 00:25:22.094 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.johnzon.jaxrs.WadlDocumentMessageBodyWriter@8a1591
+16-Jun-2019 00:25:22.094 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@549b5412
+16-Jun-2019 00:25:22.094 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@1e7d6a1b
+16-Jun-2019 00:25:22.094 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@121a938c
+16-Jun-2019 00:25:22.094 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@5f7ecbec
+16-Jun-2019 00:25:22.095 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@4c90fffe
+16-Jun-2019 00:25:22.095 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@55906fe7
+16-Jun-2019 00:25:22.095 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@3775f393
+16-Jun-2019 00:25:22.095 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@79a0baea
+16-Jun-2019 00:25:22.095 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@246b7346
+16-Jun-2019 00:25:22.095 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@39c4ca23
+16-Jun-2019 00:25:22.095 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@7f84b864
+16-Jun-2019 00:25:22.095 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using exception mappers:
+16-Jun-2019 00:25:22.095 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper@16f448af
+16-Jun-2019 00:25:22.095 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.EJBExceptionMapper@9d841f1
+16-Jun-2019 00:25:22.096 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.validation.ValidationExceptionMapper@2fefd97a
+16-Jun-2019 00:25:22.098 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints REST Application: http://localhost:8080/DistributorBack_war/api                                                                                              -> com.JAXRSConfiguration@297a3172
+16-Jun-2019 00:25:22.101 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/DistributorBack_war/api/auth                                                                                         -> Pojo com.distributor.boundaries.AuthResource       
+16-Jun-2019 00:25:22.101 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/auth/testConnection/{login}/{password}                                                       ->      String testConnection(String, String)
+16-Jun-2019 00:25:22.101 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints              POST http://localhost:8080/DistributorBack_war/api/auth/testConnection                                                                          ->      Response testConnection(Credential)  
+16-Jun-2019 00:25:22.102 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/DistributorBack_war/api/distributor                                                                                  -> Pojo com.distributor.boundaries.DistributorResource
+16-Jun-2019 00:25:22.102 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/                                                                                 ->      String getWelcome()                                       
+16-Jun-2019 00:25:22.102 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/generateAppDistributorTest                                                       ->      Response generateAppDistributorTest()                     
+16-Jun-2019 00:25:22.102 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getAllDistributorsDto                                                            ->      Response getAllDistributorsDto()                          
+16-Jun-2019 00:25:22.103 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getDistributor/{distributorName}                                                 ->      Response getDistributor(String)                           
+16-Jun-2019 00:25:22.103 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getDistributorDtoIfCoinIfDrink/{coinName}/{coinAmount}/{drinkName}/{drinkAmount} ->      Response getJsonBJointureDtoTest(String, int, String, int)
+16-Jun-2019 00:25:22.103 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getDrinkDtos                                                                     ->      Response getDrinkDtos()                                   
+16-Jun-2019 00:25:22.103 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getJsonBDistributorDtoTest                                                       ->      Response getJsonBDistributorDtoTest()                     
+16-Jun-2019 00:25:22.103 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getJsonBJointureDtoTest                                                          ->      Response getJsonBJointureDtoTest()                        
+16-Jun-2019 00:25:22.104 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/DistributorBack_war/api/enum                                                                                         -> Pojo com.distributor.boundaries.EnumResource       
+16-Jun-2019 00:25:22.104 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/enum/                                                                                        ->      String testDefaultResource()
+16-Jun-2019 00:25:22.104 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/enum/getCoins                                                                                ->      Response getTestMyConstat() 
+16-Jun-2019 00:25:22.104 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/DistributorBack_war/api/user                                                                                         -> Pojo com.distributor.boundaries.MyUserResource     
+16-Jun-2019 00:25:22.104 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/user/generateMyUsers                                                                         ->      Response generateMyUsers()         
+16-Jun-2019 00:25:22.105 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/user/getAllMyUserDtos                                                                        ->      Response getAllMyUsers()           
+16-Jun-2019 00:25:22.105 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/user/getMyUserDtoByName/{userName}                                                           ->      Response getMyUserDtoByName(String)
+16-Jun-2019 00:25:22.174 INFOS [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war.war] has finished in [6 644] ms
+16-Jun-2019 00:25:22.179 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+16-Jun-2019 00:25:22.191 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jun-2019 00:25:22.192 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 6787 ms
+16-Jun-2019 01:03:01.297 INFO [http-nio-8080-exec-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: distributorDB]
+16-Jun-2019 01:03:01.546 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.4.2.Final}
+16-Jun-2019 01:03:02.099 INFO [http-nio-8080-exec-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+16-Jun-2019 01:03:02.674 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: com.distributor.tools.MyPostgreSQL95Dialect
+16-Jun-2019 01:03:03.935 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.apache.openejb.hibernate.OpenEJBJtaPlatform2]
+Hibernate: 
+    
+    alter table if exists DistributorLine 
+       drop constraint if exists FKoa7b4oa9wm2ltm5nl0fsetmkr
+16-Jun-2019 01:03:04.044 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+16-Jun-2019 01:03:04.044 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning relation "distributorline" does not exist, skipping
+Hibernate: 
+    
+    drop table if exists Distributor cascade
+16-Jun-2019 01:03:04.046 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+Hibernate: 
+    
+    drop table if exists DistributorLine cascade
+16-Jun-2019 01:03:04.046 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning table "distributor" does not exist, skipping
+16-Jun-2019 01:03:04.047 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+Hibernate: 
+    
+    drop table if exists Drink cascade
+16-Jun-2019 01:03:04.048 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning table "distributorline" does not exist, skipping
+16-Jun-2019 01:03:04.049 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+Hibernate: 
+    
+    drop table if exists MyUser cascade16-Jun-2019 01:03:04.049 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning table "drink" does not exist, skipping
+
+16-Jun-2019 01:03:04.050 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+16-Jun-2019 01:03:04.051 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning table "myuser" does not exist, skipping
+Hibernate: 
+    
+    create table Distributor (
+       id  bigserial not null,
+        coinJsonHashMap jsonb,
+        name varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table DistributorLine (
+       id  bigserial not null,
+        amount int4 not null,
+        drinkJson jsonb,
+        distributor_id int8,
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table Drink (
+       id  bigserial not null,
+        code varchar(255),
+        name varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    
+    create table MyUser (
+       id  bigserial not null,
+        email varchar(255),
+        hashPassword varchar(255),
+        login varchar(255),
+        myRoleJsonHashSet jsonb,
+        primary key (id)
+    )
+Hibernate: 
+    
+    alter table if exists Drink 
+       add constraint UK_di2n491dj5q45rpem8niafq7s unique (code)
+Hibernate: 
+    
+    alter table if exists MyUser 
+       add constraint UK_h2aj2ekaangihmixk36ita1r9 unique (email)
+Hibernate: 
+    
+    alter table if exists MyUser 
+       add constraint UK_tefyimq0vq0lnxpshhkrsykbu unique (login)
+Hibernate: 
+    
+    alter table if exists DistributorLine 
+       add constraint FKoa7b4oa9wm2ltm5nl0fsetmkr 
+       foreign key (distributor_id) 
+       references Distributor
+16-Jun-2019 01:03:05.207 INFOS [http-nio-8080-exec-1] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=distributorDB, provider=org.hibernate.jpa.HibernatePersistenceProvider) - provider time 4002ms
+Hibernate: 
+    select
+        myuser0_.id as id1_3_,
+        myuser0_.email as email2_3_,
+        myuser0_.hashPassword as hashPass3_3_,
+        myuser0_.login as login4_3_,
+        myuser0_.myRoleJsonHashSet as myRoleJs5_3_ 
+    from
+        MyUser myuser0_ 
+    where
+        myuser0_.login=?
+javax.persistence.NoResultException: No entity found for query
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1579)
+	at org.apache.openejb.persistence.JtaQuery.getSingleResult(JtaQuery.java:96)
+	at org.apache.openejb.persistence.JtaTypedQuery.getSingleResult(JtaTypedQuery.java:55)
+	at com.distributor.controls.motherclasses.MyUserManagerImpl.getMyUserByLogin(MyUserManagerImpl.java:51)
+	at com.distributor.controls.implementations.AuthManagerImpl.testCredential(AuthManagerImpl.java:109)
+	at com.distributor.controls.implementations.AuthManagerImpl.getConnectReturnToken(AuthManagerImpl.java:34)
+	at com.distributor.boundaries.AuthResource.testConnection(AuthResource.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.openejb.server.cxf.rs.PojoInvoker.performInvocation(PojoInvoker.java:43)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:191)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:101)
+	at org.apache.openejb.server.cxf.rs.AutoJAXRSInvoker.invoke(AutoJAXRSInvoker.java:68)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:253)
+	at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:94)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at com.distributor.controls.implementations.AuthManagerImpl.testCredential(AuthManagerImpl.java:109)
+	at com.distributor.controls.implementations.AuthManagerImpl.getConnectReturnToken(AuthManagerImpl.java:34)
+	at com.distributor.boundaries.AuthResource.testConnection(AuthResource.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.openejb.server.cxf.rs.PojoInvoker.performInvocation(PojoInvoker.java:43)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:191)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:101)
+	at org.apache.openejb.server.cxf.rs.AutoJAXRSInvoker.invoke(AutoJAXRSInvoker.java:68)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:253)
+	at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:94)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+test connection : false
+login : Jean01
+getPassword : 12345678
+testCredential : false
+jwt est null : null
+jwt : null
+Hibernate: 
+    insert 
+    into
+        Drink
+        (code, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Drink_id_seq')
+Hibernate: 
+    insert 
+    into
+        Drink
+        (code, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Drink_id_seq')
+Hibernate: 
+    insert 
+    into
+        Drink
+        (code, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Drink_id_seq')
+Hibernate: 
+    insert 
+    into
+        Drink
+        (code, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Drink_id_seq')
+Hibernate: 
+    insert 
+    into
+        Drink
+        (code, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Drink_id_seq')
+Hibernate: 
+    insert 
+    into
+        Drink
+        (code, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Drink_id_seq')
+Hibernate: 
+    insert 
+    into
+        Drink
+        (code, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Drink_id_seq')
+Hibernate: 
+    insert 
+    into
+        Drink
+        (code, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Drink_id_seq')
+Hibernate: 
+    insert 
+    into
+        Drink
+        (code, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Drink_id_seq')
+Hibernate: 
+    insert 
+    into
+        Drink
+        (code, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Drink_id_seq')
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Methode : generateAppDistributorTest2
+name : Distributeur de luxe 0
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Methode : generateAppDistributorTest2
+name : Distributeur de luxe 1
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Methode : generateAppDistributorTest2
+name : Distributeur de luxe 2
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Methode : generateAppDistributorTest2
+name : Distributeur de luxe 3
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Methode : generateAppDistributorTest2
+name : Distributeur de luxe 4
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Methode : generateAppDistributorTest2
+name : Distributeur de luxe 5
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Methode : generateAppDistributorTest2
+name : Distributeur de luxe 6
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Methode : generateAppDistributorTest2
+name : Distributeur de luxe 7
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Methode : generateAppDistributorTest2
+name : Distributeur de luxe 8
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Methode : generateAppDistributorTest2
+name : Distributeur de luxe 9
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    select
+        drink0_.id as id1_2_,
+        drink0_.code as code2_2_,
+        drink0_.name as name3_2_ 
+    from
+        Drink drink0_ 
+    where
+        drink0_.code=?
+Hibernate: 
+    insert 
+    into
+        Distributor
+        (coinJsonHashMap, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        currval('Distributor_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    insert 
+    into
+        DistributorLine
+        (amount, distributor_id, drinkJson) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        currval('DistributorLine_id_seq')
+Hibernate: 
+    select
+        distributo0_.id as id1_0_,
+        distributo0_.coinJsonHashMap as coinJson2_0_,
+        distributo0_.name as name3_0_ 
+    from
+        Distributor distributo0_ 
+    order by
+        distributo0_.id desc limit ?
+Hibernate: 
+    insert 
+    into
+        MyUser
+        (email, hashPassword, login, myRoleJsonHashSet) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        currval('MyUser_id_seq')
+Hibernate: 
+    insert 
+    into
+        MyUser
+        (email, hashPassword, login, myRoleJsonHashSet) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        currval('MyUser_id_seq')
+Hibernate: 
+    insert 
+    into
+        MyUser
+        (email, hashPassword, login, myRoleJsonHashSet) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        currval('MyUser_id_seq')
+Hibernate: 
+    select
+        * 
+    from
+        myuser m 
+    where
+        m.login = ?
+Hibernate: 
+    select
+        * 
+    from
+        myuser m 
+    where
+        m.login = ?
+Hibernate: 
+    select
+        * 
+    from
+        myuser m 
+    where
+        m.login = ?
+Hibernate: 
+    select
+        myuser0_.id as id1_3_,
+        myuser0_.email as email2_3_,
+        myuser0_.hashPassword as hashPass3_3_,
+        myuser0_.login as login4_3_,
+        myuser0_.myRoleJsonHashSet as myRoleJs5_3_ 
+    from
+        MyUser myuser0_ 
+    where
+        myuser0_.login=?
+test connection : true
+login : Jean01
+getPassword : 12345678
+testCredential : true
+Hibernate: 
+    select
+        myuser0_.id as id1_3_,
+        myuser0_.email as email2_3_,
+        myuser0_.hashPassword as hashPass3_3_,
+        myuser0_.login as login4_3_,
+        myuser0_.myRoleJsonHashSet as myRoleJs5_3_ 
+    from
+        MyUser myuser0_ 
+    where
+        myuser0_.login=?
+**********************Initialisation du singleton************************
+**********************Initialisation du generateJsonWebKeys************************
+JsonWebKeys number : 0 generate
+JsonWebKeys number : 1 generate
+JsonWebKeys number : 2 generate
+MyStatic.jsonWebKeys.get(kidRandom) : org.jose4j.jwk.RsaJsonWebKey{kty=RSA, kid=1, n=zQKa2ygL6thFp9-SD1C-CG-9qmSZ3ROaT8Y8_FFzNkr4AL_2b-uGlv6aM8TsjGqy499yM2rJKrxX0Wy1p6z26hdHea3uqYLU8MMspAQawa2FztHy4SwFvG4Ep_TDWjE_oVU35GoeWrqa8FmDI1nwkutzDqtg8Na6vqLxAELZTpQtXqZ50IHNx4r4T_JnisL17NzRJjUVkNR7_Ew7OVyIb65CkIblz5_vUiaL-9E0EvHN8385dHrNS4KWZi-dN4Ce6w-EUO__wQdOwXNLqOiLLSPGIin0EEKccZ2YB48nQsy9tR2zWWMigdA-W2uEl-LTysYmJxWIVYg8czecaV84fw, e=AQAB}
+Test connection successfull - login : Jean01
+Kid number : 1
+jwt : eyJraWQiOiIxIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJkaXN0cmlidXRvci5jb20iLCJleHAiOjE1NjA2NDcwMDQsImp0aSI6Ilk4bEpWNkNSMWpnaUR5NHUzQURDanciLCJpYXQiOjE1NjA2Mzk4MDQsIm5iZiI6MTU2MDYzOTY4NCwic3ViIjoiSmVhbjAxIiwicsO0bGVzIHV0aWxpc2F0ZXVyIjpbInZpc2l0b3IiXX0.Q4KFBexiXjUrJkAuq71qJ0LVmRYX8nY_GE4wsyRNQLlQcaRczIUTKpUE0NuwuFNQONeCBWi_jNFK1Uiz2A5IdhCMG8mINcsACSvjxoj-0eZaoSmC47UMvnWUSfoqQ8Es3mk6sHj0TWu6cIhNAt6bwyf1odZROXTbWz1QYGKnHnre7rIpdfL5677k5NE6Fw3YwjDgtTjtsANqKpej77E9a92jBck8sG6HS_NiWXx1HDOzjaHz5mtsjf0Y_4hic7BhAKSHdKUXcrC1L_0TWUm4w09sDAgEZpgmQJbh6UqPMIr4MwrDoMqGHAoiyrIrBjOVSAzqYzBoQPFyBj7R6ME7Rw
+16-Jun-2019 01:46:49.435 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Jun-2019 01:46:49.436 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+16-Jun-2019 01:46:49.488 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Jun-2019 01:46:49.539 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Arrêt du service [Catalina]
+16-Jun-2019 01:46:49.555 INFOS [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war
+16-Jun-2019 01:46:49.595 INFO [localhost-startStop-2] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl.perform HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: 
+    
+    alter table if exists DistributorLine 
+       drop constraint if exists FKoa7b4oa9wm2ltm5nl0fsetmkr
+Hibernate: 
+    
+    drop table if exists Distributor cascade
+Hibernate: 
+    
+    drop table if exists DistributorLine cascade
+Hibernate: 
+    
+    drop table if exists Drink cascade
+Hibernate: 
+    
+    drop table if exists MyUser cascade
+16-Jun-2019 01:46:49.680 INFO [localhost-startStop-2] org.hibernate.resource.beans.container.spi.AbstractCdiBeanContainer.stop HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerImmediateAccessImpl@79f1d3c5
+16-Jun-2019 01:46:49.891 AVERTISSEMENT [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [DistributorBack_war] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Jun-2019 01:46:49.936 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+16-Jun-2019 01:46:49.938 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Jun-2019 01:46:49.939 INFOS [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+16-Jun-2019 01:46:49.984 INFOS [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: distributorDs
+16-Jun-2019 01:46:49.988 INFOS [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: distributorDsNonJta
+16-Jun-2019 01:46:49.996 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+16-Jun-2019 01:46:49.998 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["ajp-nio-8009"]

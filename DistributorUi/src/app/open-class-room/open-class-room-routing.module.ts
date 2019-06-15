@@ -9,6 +9,7 @@ import { AppareilViewSimpleComponent } from './appareil-view-simple/appareil-vie
 import { AuthGuardService } from 'src/service/auth-guard.service';
 import { EditAppareilComponent } from './edit-appareil/edit-appareil.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { NewUserComponent } from './new-user/new-user.component';
 
 
 const routes: Routes = [
@@ -42,12 +43,17 @@ const routes: Routes = [
                 canActivate: [AuthGuardService]
             },
             {
+                path:'open-class-room-new-user',
+                component:NewUserComponent,
+                canActivate:[AuthGuardService]
+            },
+            {
                 path: 'open-class-room-auth',
                 component: AuthComponent,
                 canActivate: [AuthGuardService]
             },
             {
-                path: 'blog-app',
+                path: 'open-class-room-blog-app',
                 component: BlogAppComponent,
                 canActivate: [AuthGuardService]
             }

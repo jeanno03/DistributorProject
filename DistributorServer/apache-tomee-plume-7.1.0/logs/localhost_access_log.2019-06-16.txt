@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [16/Jun/2019:01:03:00 +0200] "OPTIONS /DistributorBack_war/api/auth/testConnection HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [16/Jun/2019:01:03:05 +0200] "POST /DistributorBack_war/api/auth/testConnection HTTP/1.1" 401 34
+0:0:0:0:0:0:0:1 - - [16/Jun/2019:01:03:12 +0200] "GET /DistributorBack_war/api/distributor/generateAppDistributorTest HTTP/1.1" 200 16779
+0:0:0:0:0:0:0:1 - - [16/Jun/2019:01:03:14 +0200] "GET /DistributorBack_war/api/user/generateMyUsers HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [16/Jun/2019:01:03:24 +0200] "POST /DistributorBack_war/api/auth/testConnection HTTP/1.1" 200 609
