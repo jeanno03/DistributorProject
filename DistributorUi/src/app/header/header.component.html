@@ -20,26 +20,40 @@
                 <a class="nav-link" routerLink="/manager">Manager</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" routerLink="/distributor">Distributor</a>
+            </li>
+
+            <li class="nav-item">
                 <a class="nav-link" routerLink="/myUser/mySpace">My Space</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink="/open-class-room/open-class-room-appareils">Appareils</a>
-            </li>
-            <li>
-                <a class="nav-link" routerLink="/open-class-room/open-class-room-edit">Créer appareil</a>
-            </li>
-            <li>
-                <a class="nav-link" routerLink="/open-class-room/open-class-room-users">Users</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLinkActive="active"
-                    routerLink="/open-class-room/open-class-room-auth">Auth</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLinkActive="active"
-                    routerLink="/open-class-room/open-class-room-blog-app">Blog</a>
-            </li>
         </ul>
+        <div class="btn-group" dropdown>
+            <button id="button-basic" dropdownToggle type="button" class="btn btn-dark dropdown-toggle dropChar"
+                aria-controls="dropdown-basic">
+                Open class room<span class="caret"></span>
+            </button>
+            <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu dropColor" role="menu"
+                aria-labelledby="button-basic">
+                <li class="nav-item">
+                    <a class="nav-link dropChar" routerLink="/open-class-room/open-class-room-appareils">Machines</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link dropChar" routerLink="/open-class-room/open-class-room-edit">New</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropChar" routerLink="/open-class-room/open-class-room-users">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropChar" routerLinkActive="active"
+                        routerLink="/open-class-room/open-class-room-auth">Auth</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropChar" routerLinkActive="active"
+                        routerLink="/open-class-room/open-class-room-blog-app">Blog</a>
+                </li>
+            </ul>
+        </div>
         <button class="btn btn-outline-success headerButton" routerLink="/myUser/login" *ngIf="!token">login</button>
         <button class="btn btn-outline-success headerButton" type="submit" (click)="logout()"
             *ngIf="token">logout</button>

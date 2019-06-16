@@ -1,0 +1,14 @@
+<div class="col-sm-8 col-sm-offset-2">
+    <form [formGroup]="distributorFieldForm" (ngSubmit)="onSubmitForm()">
+      <div *ngFor="let s of distributorField">
+      <div class="form-group">
+        <label for="field">{{s}}</label>
+
+        <input type="text" class="form-control" formControlName="s">    
+
+      </div>
+    </div>
+      <button type="submit" class="btn btn-primary">Soumettre</button>
+    </form>
+    </div>        
+

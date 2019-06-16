@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ManagerComponent } from './manager/manager.component';
 import { AuthGuardService } from 'src/service/auth-guard.service';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
+import { DistributorComponent } from './distributor/distributor.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,11 @@ const routes: Routes = [
   {
     path:'manager',
     component:ManagerComponent,
+    canActivate: [AuthGuardService] 
+  },
+  {
+    path:'distributor',
+    component:DistributorComponent,
     canActivate: [AuthGuardService] 
   },
   { path: '', component: HomeComponent },

@@ -16,7 +16,9 @@ import { DistributorServiceService } from 'src/service/distributor-service.servi
 import { MyUserServiceService } from 'src/service/my-user-service.service';
 import { AuthGuardService } from 'src/service/auth-guard.service';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
-
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { DistributorComponent } from './distributor/distributor.component';
+import { FieldService } from 'src/service/field.service';
 
 // https://appdividend.com/2018/12/14/angular-7-routing-and-sub-routing-tutorial-with-example/
 // shift + alt + a pour commenter le code (windows)
@@ -29,22 +31,25 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
     HeaderComponent,
     HomeComponent,
     ManagerComponent,
-    FourOhFourComponent
+    FourOhFourComponent,
+    DistributorComponent,
   ],
   imports: [
+    BsDropdownModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
     MyUserModule,
     HttpClientModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    OpenClassRoomModule
+    OpenClassRoomModule,
   ],
   providers: [
     JwtServiceService, 
     DistributorServiceService, 
     MyUserServiceService,
-    AuthGuardService],
+    AuthGuardService,
+    FieldService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
