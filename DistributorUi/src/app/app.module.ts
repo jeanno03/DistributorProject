@@ -25,6 +25,7 @@ import { FieldService } from 'src/service/field.service';
 // ctrl + k + c/u pour commenter le code (linux)
 // https://modev.net/angular-6-implement-auth-guard-to-your-project/
 // ctrl + shift + i pour formater (linux)
+// npm i ngx-bootstrap
 @NgModule({
   declarations: [
     AppComponent,

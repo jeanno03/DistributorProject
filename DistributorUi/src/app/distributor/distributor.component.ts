@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FieldService } from 'src/service/field.service';
-import { FormGroup, FormBuilder, FormArray } from '@angular/forms';
+import { FormGroup, FormBuilder, FormArray, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-distributor',
@@ -10,10 +10,9 @@ import { FormGroup, FormBuilder, FormArray } from '@angular/forms';
 export class DistributorComponent implements OnInit {
 
   distributorField: any;
-
   distributorFieldForm: FormGroup = new FormGroup({});
-
   fakeDistributor: any;
+  distributorItems: [any] = [{}];
 
   constructor(
     private fieldService: FieldService,
@@ -21,27 +20,31 @@ export class DistributorComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    //retrieve field from api
+    this.getDistributorField();
+    //retrieve data (fake)
     this.getFakeDistributor();
     this.initForm();
   }
 
-  initForm() {
+  getDistributorField() {
     var temp;
     this.fieldService.getDistributorField()
       .subscribe(data => {
         temp = data;
         this.distributorField = temp.CoinJsonHashMapField.strings;
 
-        this.distributorField.forEach(s => {
-
-          this.distributorFieldForm = this.formBuilder.group({
-            s: ["toDo"]
-          });
-        });
-
+        this.getDistributorItems();
       }, err => {
         console.log(err);
       })
+
+  }
+
+  initForm() {
+    this.distributorFieldForm = this.formBuilder.group({
+      distribArray: this.formBuilder.array([])
+    });
   }
 
   onSubmitForm() {
@@ -62,5 +65,14 @@ export class DistributorComponent implements OnInit {
     ]
   }
 
+  getDistributorItems() {
+    //link field and value
+    for (var i = 0; i < this.distributorField.length; i++) {
+      var distributorItem = { field: '', value: '' };
+      distributorItem.field = this.distributorField[i];
+      distributorItem.value = this.fakeDistributor[i];
+      this.distributorItems.push(distributorItem);
+    }
+  }
 }
 

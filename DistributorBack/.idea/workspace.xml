@@ -7,25 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c773490-600b-46dd-8b3a-717d55c16dd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DistributorBack.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/conf/tomee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/conf/tomee.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/logs/catalina.2019-06-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/logs/catalina.2019-06-16.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/logs/catalina.out" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/logs/catalina.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/logs/localhost.2019-06-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/logs/localhost.2019-06-16.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/logs/localhost_access_log.2019-06-16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/logs/localhost_access_log.2019-06-16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war/META-INF/maven/com/DistributorBack/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war/META-INF/maven/com/DistributorBack/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war/WEB-INF/classes/META-INF/DistributorBack.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributorUi/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorUi/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributorUi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorUi/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DistributorUi/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorUi/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributorUi/src/app/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorUi/src/app/header/header.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributorUi/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DistributorUi/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../toDestroy/semantic.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,28 +23,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/boundaries/EnumResource.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="465">
-                    <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="49" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="DistributorBack" />
   </component>
@@ -68,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/singleton/MySingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="60">
               <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/boundaries/DistributorResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="877">
+            <state relative-caret-position="1065">
               <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="119" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -120,10 +83,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/controls/implementations/AuthManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="120">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -301,7 +260,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -315,6 +274,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -413,7 +373,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -564,9 +523,10 @@
     <option name="totallyTimeSpent" value="177361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1363" y="-1" width="1926" height="1084" extended-state="6" />
+    <frame x="1363" y="-1" width="1926" height="1084" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.27854857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.28175026" />
       <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.25266525" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.5016129" side_tool="true" weight="0.25266525" />
@@ -1005,6 +965,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/singleton/MySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/boundaries/DistributorResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/enums/Coin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/boundaries/FieldResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/controls/implementations/FieldManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/controls/implementations/AuthManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/controls/motherclasses/DistributorManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1025,74 +1043,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/enums/Coin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/boundaries/EnumResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/controls/implementations/AuthManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/singleton/MySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/controls/implementations/FieldManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/boundaries/DistributorResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="877">
-          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="119" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/distributor/boundaries/FieldResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
           </folding>
         </state>
       </provider>
