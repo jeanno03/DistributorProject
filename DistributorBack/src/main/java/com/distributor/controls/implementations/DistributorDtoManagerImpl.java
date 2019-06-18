@@ -27,11 +27,16 @@ public class DistributorDtoManagerImpl extends DistributorConverter implements I
     private static List<DistributorDto> distributorDtos;
 
     public DistributorDtoManagerImpl() {
+    }
+
+    private void initDistributorDto(){
         distributorDtos = new ArrayList<>();
     }
 
+
     @Override
     public List<DistributorDto> generateDistributorDtos(){
+        initDistributorDto();
 
         drinkDtoManager.persistDrink();
 
@@ -51,6 +56,7 @@ public class DistributorDtoManagerImpl extends DistributorConverter implements I
 
     @Override
     public List<DistributorDto> getDistributorDtosByName(String name) {
+        initDistributorDto();
             getDistributorsByName(name).forEach(d->{
                 distributorDtos.add(getDistributorDto(d));
                 try {
@@ -64,6 +70,7 @@ public class DistributorDtoManagerImpl extends DistributorConverter implements I
 
     @Override
     public List <DistributorDto> getAllDistributorDtos(){
+        initDistributorDto();
             getAllDistributors().forEach(d->{
                 distributorDtos.add(getDistributorDto(d));
                 try {
@@ -77,6 +84,7 @@ public class DistributorDtoManagerImpl extends DistributorConverter implements I
 
     @Override
     public List<DistributorDto> getJsonBDistributorDtoTest() {
+        initDistributorDto();
         getJsonBDistributorTest().forEach(d->{
             distributorDtos.add(getDistributorDto(d));
             try {
@@ -90,6 +98,7 @@ public class DistributorDtoManagerImpl extends DistributorConverter implements I
 
     @Override
     public List<DistributorDto> getJsonBJointureDtoTest() {
+        initDistributorDto();
 
         getJsonBJointureTest().forEach(d->{
             distributorDtos.add(getDistributorDto(d));
@@ -104,6 +113,7 @@ public class DistributorDtoManagerImpl extends DistributorConverter implements I
 
     @Override
     public List<DistributorDto> getDistributorDtoIfCoinIfDrink(String coinName, int coinAmount, String drinkName, int drinkAmount){
+        initDistributorDto();
         getDistributorIfCoinIfDrink(coinName, coinAmount, drinkName, drinkAmount).forEach(d->{
             distributorDtos.add(getDistributorDto(d));
             try {
@@ -234,7 +244,13 @@ public class DistributorDtoManagerImpl extends DistributorConverter implements I
         return distributorDto;
     }
 
-
+    @Override
+    public List<DistributorDto> saveDistributor(Distributor distributor, HashMap<Coin, Integer> coinIntegerHashMap){
+        initDistributorDto();
+        em.persist(distributor);
+        distributorDtos.add(getLastDistributorDto());
+        return distributorDtos;
+    }
 
 }
 

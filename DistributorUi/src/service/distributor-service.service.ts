@@ -33,5 +33,9 @@ export class DistributorServiceService {
 return this.httpClient.get('http://localhost:8080/DistributorBack_war/api/distributor/getDistributorDtoIfCoinIfDrink/'+coin+'/'+nbCoin+'/'+drink+'/'+nbDrink+'');
   }
   
+  saveDistributor(){
+    //toDo
+  }
+  
 
 }

@@ -2,12 +2,11 @@ package com.distributor.boundaries;
 
 import com.distributor.controls.interfaces.IDistributorDtoManager;
 import com.distributor.controls.interfaces.IDrinkDtoManager;
+import com.distributor.entities.Distributor;
+import com.distributor.enums.Coin;
 
 import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.HashMap;
@@ -105,5 +104,16 @@ public class DistributorResource {
         ent.put("Drinks",drinkDtoManager.getDrinkDtos());
         return Response.ok().entity(ent).build();
     }
+
+    //a rajouter le json
+    //http://localhost:8080/DistributorBack_war/api/distributor/saveDistributor
+    @POST
+    @Path("/saveDistributor")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response saveDistributor(Distributor distributor, HashMap<Coin, Integer> coinIntegerHashMap){
+        ent.put("Drinks",distributorManager.saveDistributor(distributor, coinIntegerHashMap).get(0));
+        return Response.ok().entity(ent).build();
+    }
+
 
 }
