@@ -15,6 +15,6 @@ public interface IDistributorDtoManager {
     List<DistributorDto> getJsonBDistributorDtoTest();
     List<DistributorDto> getJsonBJointureDtoTest();
     List<DistributorDto> getDistributorDtoIfCoinIfDrink(String coinName, int coinAmount, String drinkName, int drinkAmount);
-    List<DistributorDto> saveDistributor(Distributor distributor, HashMap<Coin, Integer> coinIntegerHashMap);
+    List<DistributorDto> saveDistributor(Distributor distributor);
 
 }

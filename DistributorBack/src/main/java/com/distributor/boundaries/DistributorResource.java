@@ -2,6 +2,7 @@ package com.distributor.boundaries;
 
 import com.distributor.controls.interfaces.IDistributorDtoManager;
 import com.distributor.controls.interfaces.IDrinkDtoManager;
+import com.distributor.dtos.DistributorDto;
 import com.distributor.entities.Distributor;
 import com.distributor.enums.Coin;
 
@@ -110,8 +111,12 @@ public class DistributorResource {
     @POST
     @Path("/saveDistributor")
     @Produces(MediaType.APPLICATION_JSON)
-    public Response saveDistributor(Distributor distributor, HashMap<Coin, Integer> coinIntegerHashMap){
-        ent.put("Drinks",distributorManager.saveDistributor(distributor, coinIntegerHashMap).get(0));
+    public Response saveDistributor(DistributorDto distributorDto){
+        Distributor distributor = new Distributor(distributorDto.getName());
+        distributor.setCoinJsonHashMap(distributorDto.getCoinJsonHashMap());
+
+
+        ent.put("Drinks",distributorManager.saveDistributor(distributor).get(0));
         return Response.ok().entity(ent).build();
     }
 

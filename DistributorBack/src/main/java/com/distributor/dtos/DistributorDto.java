@@ -20,11 +20,13 @@ public class DistributorDto implements Serializable {
     }
 
     public DistributorDto(Long id, String name) {
+        this();
         this.id = id;
         this.name = name;
     }
 
     public DistributorDto(Long id, String name, CoinJsonHashMap coinJsonHashMap, Collection<DistributorLineDto> distributorLineDtos) {
+        this();
         this.id = id;
         this.name = name;
         this.coinJsonHashMap = coinJsonHashMap;
@@ -62,4 +64,6 @@ public class DistributorDto implements Serializable {
     public void setDistributorLineDtos(Collection<DistributorLineDto> distributorLineDtos) {
         this.distributorLineDtos = distributorLineDtos;
     }
+
+
 }

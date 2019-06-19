@@ -1,0 +1,210 @@
+19-Jun-2019 21:32:23.054 INFOS [main] org.apache.openejb.persistence.PersistenceBootstrap.getDefaultProvider Default JPA Provider changed to org.eclipse.persistence.jpa.PersistenceProvider specified by jar:file:/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/lib/openejb-core-eclipselink-7.1.0.jar!/META-INF/org.apache.openejb.persistence.PersistenceBootstrap.provider
+19-Jun-2019 21:32:23.977 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.32 (7.1.0)
+19-Jun-2019 21:32:23.977 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Jun 20 2018 19:50:35 UTC
+19-Jun-2019 21:32:23.977 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.32.0
+19-Jun-2019 21:32:23.977 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+19-Jun-2019 21:32:23.977 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            4.15.0-20-generic
+19-Jun-2019 21:32:23.977 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+19-Jun-2019 21:32:23.978 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/java/jdk1.8.0_181/jre
+19-Jun-2019 21:32:23.978 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_181-b13
+19-Jun-2019 21:32:23.978 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+19-Jun-2019 21:32:23.978 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+19-Jun-2019 21:32:23.978 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+19-Jun-2019 21:32:23.978 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/conf/logging.properties
+19-Jun-2019 21:32:23.979 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jun-2019 21:32:23.979 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/lib/openejb-javaagent.jar
+19-Jun-2019 21:32:23.979 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jun-2019 21:32:23.979 INFOS [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jun-2019 21:32:23.979 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jun-2019 21:32:23.980 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dignore.endorsed.dirs=
+19-Jun-2019 21:32:23.980 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+19-Jun-2019 21:32:23.980 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+19-Jun-2019 21:32:23.980 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/temp
+19-Jun-2019 21:32:23.980 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-Jun-2019 21:32:24.511 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+19-Jun-2019 21:32:24.526 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+19-Jun-2019 21:32:24.564 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jun-2019 21:32:24.567 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+19-Jun-2019 21:32:25.934 INFOS [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+19-Jun-2019 21:32:26.167 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+19-Jun-2019 21:32:26.168 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+19-Jun-2019 21:32:26.168 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Wed Jun 19 21:32:26 CEST 2019
+19-Jun-2019 21:32:26.168 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+19-Jun-2019 21:32:26.168 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.1.0
+19-Jun-2019 21:32:26.168 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20180902
+19-Jun-2019 21:32:26.168 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 09:50
+19-Jun-2019 21:32:26.168 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+19-Jun-2019 21:32:26.169 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+19-Jun-2019 21:32:26.169 INFOS [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0
+19-Jun-2019 21:32:26.171 INFOS [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1d082e88
+19-Jun-2019 21:32:26.172 INFOS [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+19-Jun-2019 21:32:26.292 INFOS [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/conf/tomee.xml'
+19-Jun-2019 21:32:26.349 INFOS [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+19-Jun-2019 21:32:26.350 INFOS [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+19-Jun-2019 21:32:26.351 INFOS [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=distributorDs, type=Resource, provider-id=Default JDBC Database)
+19-Jun-2019 21:32:26.354 INFOS [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+19-Jun-2019 21:32:26.358 INFOS [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+19-Jun-2019 21:32:26.431 INFOS [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+19-Jun-2019 21:32:26.551 INFOS [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=distributorDs)
+19-Jun-2019 21:32:27.663 INFOS [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+19-Jun-2019 21:32:28.001 INFOS [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+19-Jun-2019 21:32:28.105 INFOS [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+19-Jun-2019 21:32:28.106 INFOS [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+19-Jun-2019 21:32:28.106 INFOS [main] org.apache.openejb.server.SimpleServiceManager.start -------
+19-Jun-2019 21:32:28.106 INFOS [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+19-Jun-2019 21:32:28.106 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 4861 ms
+19-Jun-2019 21:32:28.173 INFOS [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+19-Jun-2019 21:32:28.174 INFOS [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+19-Jun-2019 21:32:28.175 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Démarrage du service [Catalina]
+19-Jun-2019 21:32:28.176 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.32 (7.1.0)
+19-Jun-2019 21:32:28.201 INFOS [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Déploiement de l'archive [/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war.war] de l'application web
+19-Jun-2019 21:32:28.215 INFOS [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /DistributorBack_war
+19-Jun-2019 21:32:28.219 INFOS [localhost-startStop-1] org.apache.openejb.util.JarExtractor.extract Extracting jar: /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war.war
+19-Jun-2019 21:32:28.518 INFOS [localhost-startStop-1] org.apache.openejb.util.JarExtractor.extract Extracted path: /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war
+19-Jun-2019 21:32:29.766 INFOS [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war
+19-Jun-2019 21:32:30.482 INFOS [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+19-Jun-2019 21:32:30.483 INFOS [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean DistributorBack_war.Comp1943537868: Container(type=MANAGED, id=Default Managed Container)
+19-Jun-2019 21:32:30.483 INFOS [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+19-Jun-2019 21:32:30.493 INFOS [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/temp for stateful session passivation
+19-Jun-2019 21:32:30.509 INFOS [localhost-startStop-1] org.apache.openejb.config.AutoConfig.deploy Configuring PersistenceUnit(name=distributorDB, provider=org.hibernate.jpa.HibernatePersistenceProvider)
+19-Jun-2019 21:32:30.510 INFOS [localhost-startStop-1] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'distributorDsNonJta' of type 'DataSource for 'distributorDB'.
+19-Jun-2019 21:32:30.510 INFOS [localhost-startStop-1] org.apache.openejb.config.AutoConfig.deploy Configuring Service(id=distributorDsNonJta, type=Resource, provider-id=distributorDs)
+19-Jun-2019 21:32:30.511 INFOS [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=distributorDsNonJta)
+19-Jun-2019 21:32:30.664 INFOS [localhost-startStop-1] org.apache.openejb.config.AutoConfig.setNonJtaDataSource Adjusting PersistenceUnit distributorDB <non-jta-data-source> to Resource ID 'distributorDsNonJta' from 'null'
+19-Jun-2019 21:32:30.710 INFOS [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war" loaded.
+19-Jun-2019 21:32:30.715 INFOS [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war
+19-Jun-2019 21:32:30.864 INFOS [localhost-startStop-1] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1d082e88
+19-Jun-2019 21:32:30.964 INFOS [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+19-Jun-2019 21:32:30.971 INFOS [localhost-startStop-1] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+19-Jun-2019 21:32:31.849 INFOS [localhost-startStop-1] org.apache.webbeans.config.BeansDeployer.validateInjectionPoints All injection points were validated successfully.
+19-Jun-2019 21:32:31.853 INFOS [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container has started, it took 889 ms.
+19-Jun-2019 21:32:31.878 INFOS [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war)
+19-Jun-2019 21:32:32.161 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Jun-2019 21:32:32.522 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using readers:
+19-Jun-2019 21:32:32.522 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@5b5c79c5
+19-Jun-2019 21:32:32.522 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@7a2fa1f
+19-Jun-2019 21:32:32.522 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@238c20c
+19-Jun-2019 21:32:32.523 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@1428b4f1
+19-Jun-2019 21:32:32.523 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@4d5879ae
+19-Jun-2019 21:32:32.523 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@5d3a1018
+19-Jun-2019 21:32:32.523 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@61bb9188
+19-Jun-2019 21:32:32.523 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@2c7a93d9
+19-Jun-2019 21:32:32.523 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@4dbfa3dd
+19-Jun-2019 21:32:32.523 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@4952bbae
+19-Jun-2019 21:32:32.523 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@71787110
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using writers:
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.johnzon.jaxrs.WadlDocumentMessageBodyWriter@964d0bd
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@4dbfa3dd
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@4d5879ae
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@5b5c79c5
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@7a2fa1f
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@238c20c
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@1428b4f1
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@5d3a1018
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@61bb9188
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@2c7a93d9
+19-Jun-2019 21:32:32.524 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@4952bbae
+19-Jun-2019 21:32:32.525 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@71787110
+19-Jun-2019 21:32:32.525 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using exception mappers:
+19-Jun-2019 21:32:32.525 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper@32ff5b4f
+19-Jun-2019 21:32:32.525 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.EJBExceptionMapper@515dd24e
+19-Jun-2019 21:32:32.525 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.validation.ValidationExceptionMapper@4350aff9
+19-Jun-2019 21:32:32.527 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints REST Application: http://localhost:8080/DistributorBack_war/api                                                                                              -> com.JAXRSConfiguration@772a84e1
+19-Jun-2019 21:32:32.531 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/DistributorBack_war/api/auth                                                                                         -> Pojo com.distributor.boundaries.AuthResource       
+19-Jun-2019 21:32:32.531 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/auth/testConnection/{login}/{password}                                                       ->      String testConnection(String, String)
+19-Jun-2019 21:32:32.531 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints              POST http://localhost:8080/DistributorBack_war/api/auth/testConnection                                                                          ->      Response testConnection(Credential)  
+19-Jun-2019 21:32:32.532 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/DistributorBack_war/api/distributor                                                                                  -> Pojo com.distributor.boundaries.DistributorResource
+19-Jun-2019 21:32:32.532 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/                                                                                 ->      String getWelcome()                                       
+19-Jun-2019 21:32:32.532 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/generateAppDistributorTest                                                       ->      Response generateAppDistributorTest()                     
+19-Jun-2019 21:32:32.532 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getAllDistributorsDto                                                            ->      Response getAllDistributorsDto()                          
+19-Jun-2019 21:32:32.532 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getDistributor/{distributorName}                                                 ->      Response getDistributor(String)                           
+19-Jun-2019 21:32:32.532 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getDistributorDtoIfCoinIfDrink/{coinName}/{coinAmount}/{drinkName}/{drinkAmount} ->      Response getJsonBJointureDtoTest(String, int, String, int)
+19-Jun-2019 21:32:32.532 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getDrinkDtos                                                                     ->      Response getDrinkDtos()                                   
+19-Jun-2019 21:32:32.533 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getJsonBDistributorDtoTest                                                       ->      Response getJsonBDistributorDtoTest()                     
+19-Jun-2019 21:32:32.533 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/distributor/getJsonBJointureDtoTest                                                          ->      Response getJsonBJointureDtoTest()                        
+19-Jun-2019 21:32:32.533 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints              POST http://localhost:8080/DistributorBack_war/api/distributor/saveDistributor                                                                  ->      Response saveDistributor(DistributorDto)                  
+19-Jun-2019 21:32:32.533 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/DistributorBack_war/api/enum                                                                                         -> Pojo com.distributor.boundaries.EnumResource       
+19-Jun-2019 21:32:32.533 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/enum/                                                                                        ->      String testDefaultResource()
+19-Jun-2019 21:32:32.533 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/enum/getCoins                                                                                ->      Response getTestMyConstat() 
+19-Jun-2019 21:32:32.533 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/DistributorBack_war/api/field                                                                                        -> Pojo com.distributor.boundaries.FieldResource      
+19-Jun-2019 21:32:32.533 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/field/                                                                                       ->      String testDefaultResource()
+19-Jun-2019 21:32:32.533 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/field/getCoinJsonHashMapField                                                                ->      Response getTestMyConstat() 
+19-Jun-2019 21:32:32.534 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/DistributorBack_war/api/user                                                                                         -> Pojo com.distributor.boundaries.MyUserResource     
+19-Jun-2019 21:32:32.534 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/user/generateMyUsers                                                                         ->      Response generateMyUsers()         
+19-Jun-2019 21:32:32.534 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/user/getAllMyUserDtos                                                                        ->      Response getAllMyUsers()           
+19-Jun-2019 21:32:32.534 INFOS [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/DistributorBack_war/api/user/getMyUserDtoByName/{userName}                                                           ->      Response getMyUserDtoByName(String)
+19-Jun-2019 21:32:32.573 INFOS [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war.war] has finished in [4 360] ms
+19-Jun-2019 21:32:32.577 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+19-Jun-2019 21:32:32.585 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jun-2019 21:32:32.587 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 4480 ms
+19-Jun-2019 21:34:05.157 INFO [http-nio-8080-exec-6] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: distributorDB]
+19-Jun-2019 21:34:05.290 INFO [http-nio-8080-exec-6] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.4.2.Final}
+19-Jun-2019 21:34:05.617 INFO [http-nio-8080-exec-6] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+19-Jun-2019 21:34:05.927 INFO [http-nio-8080-exec-6] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: com.distributor.tools.MyPostgreSQL95Dialect
+19-Jun-2019 21:34:06.885 INFO [http-nio-8080-exec-6] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.apache.openejb.hibernate.OpenEJBJtaPlatform2]
+19-Jun-2019 21:34:06.961 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+19-Jun-2019 21:34:06.962 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning relation "distributorline" does not exist, skipping
+19-Jun-2019 21:34:06.963 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+19-Jun-2019 21:34:06.963 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning table "distributor" does not exist, skipping
+19-Jun-2019 21:34:06.964 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+19-Jun-2019 21:34:06.965 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning table "distributorline" does not exist, skipping
+19-Jun-2019 21:34:06.965 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+19-Jun-2019 21:34:06.966 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning table "drink" does not exist, skipping
+19-Jun-2019 21:34:06.966 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+19-Jun-2019 21:34:06.967 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning table "myuser" does not exist, skipping
+19-Jun-2019 21:34:08.336 INFOS [http-nio-8080-exec-6] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=distributorDB, provider=org.hibernate.jpa.HibernatePersistenceProvider) - provider time 3270ms
+19-Jun-2019 21:36:57.746 GRAVE [http-nio-8080-exec-5] org.apache.cxf.jaxrs.utils.JAXRSUtils.logMessageHandlerProblem No message body reader has been found for class com.distributor.dtos.DistributorDto, ContentType: application/octet-stream
+19-Jun-2019 21:36:57.748 AVERTISSEMENT [http-nio-8080-exec-5] org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper.toResponse javax.ws.rs.WebApplicationException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1352)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameter(JAXRSUtils.java:856)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:815)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:215)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:253)
+	at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:94)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+19-Jun-2019 22:42:38.813 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jun-2019 22:42:38.816 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+19-Jun-2019 22:42:38.889 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jun-2019 22:42:38.940 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Arrêt du service [Catalina]
+19-Jun-2019 22:42:38.955 INFOS [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /home/jeanno/DistributorProject/DistributorServer/apache-tomee-plume-7.1.0/webapps/DistributorBack_war
+19-Jun-2019 22:42:39.002 INFO [localhost-startStop-2] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl.perform HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+19-Jun-2019 22:42:39.634 INFO [localhost-startStop-2] org.hibernate.resource.beans.container.spi.AbstractCdiBeanContainer.stop HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerImmediateAccessImpl@953c62b
+19-Jun-2019 22:42:39.875 AVERTISSEMENT [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [DistributorBack_war] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+19-Jun-2019 22:42:39.918 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+19-Jun-2019 22:42:39.919 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jun-2019 22:42:39.920 INFOS [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+19-Jun-2019 22:42:39.999 INFOS [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: distributorDs
+19-Jun-2019 22:42:40.003 INFOS [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: distributorDsNonJta
+19-Jun-2019 22:42:40.023 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+19-Jun-2019 22:42:40.024 INFOS [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["ajp-nio-8009"]

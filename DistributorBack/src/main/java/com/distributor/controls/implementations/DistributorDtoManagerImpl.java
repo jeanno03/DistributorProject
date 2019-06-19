@@ -245,7 +245,7 @@ public class DistributorDtoManagerImpl extends DistributorConverter implements I
     }
 
     @Override
-    public List<DistributorDto> saveDistributor(Distributor distributor, HashMap<Coin, Integer> coinIntegerHashMap){
+    public List<DistributorDto> saveDistributor(Distributor distributor){
         initDistributorDto();
         em.persist(distributor);
         distributorDtos.add(getLastDistributorDto());

@@ -19,13 +19,15 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { DistributorComponent } from './distributor/distributor.component';
 import { FieldService } from 'src/service/field.service';
-
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 // https://appdividend.com/2018/12/14/angular-7-routing-and-sub-routing-tutorial-with-example/
 // shift + alt + a pour commenter le code (windows)
 // ctrl + k + c/u pour commenter le code (linux)
 // https://modev.net/angular-6-implement-auth-guard-to-your-project/
 // ctrl + shift + i pour formater (linux)
 // npm i ngx-bootstrap
+//https://www.freakyjolly.com/angular-7-6-add-data-tables-with-ultimate-features-in-few-steps/#more-2308
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,6 +46,7 @@ import { FieldService } from 'src/service/field.service';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     OpenClassRoomModule,
+    NgxDatatableModule
   ],
   providers: [
     JwtServiceService, 

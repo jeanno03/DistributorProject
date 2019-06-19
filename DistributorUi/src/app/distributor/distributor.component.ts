@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FieldService } from 'src/service/field.service';
 import { FormGroup, FormBuilder, FormArray, Validators } from '@angular/forms';
+import { DistributorServiceService } from 'src/service/distributor-service.service';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 @Component({
   selector: 'app-distributor',
@@ -13,10 +15,12 @@ export class DistributorComponent implements OnInit {
   distributorFieldForm: FormGroup = new FormGroup({});
   fakeDistributor: any;
   distributorItems: [any] = [{}];
-
+  distributors:any;
+  rows = [];
   constructor(
     private fieldService: FieldService,
-    private formBuilder: FormBuilder
+    private formBuilder: FormBuilder,
+    private distributorServiceService: DistributorServiceService
   ) { }
 
   ngOnInit() {
@@ -25,6 +29,9 @@ export class DistributorComponent implements OnInit {
     //retrieve data (fake)
     this.getFakeDistributor();
     this.initForm();
+    this.fetch((data) => {
+      this.rows = data;
+    });
   }
 
   getDistributorField() {
@@ -74,5 +81,21 @@ export class DistributorComponent implements OnInit {
       this.distributorItems.push(distributorItem);
     }
   }
+
+  fetch(cb) {
+    const req = new XMLHttpRequest();
+    // req.open('GET', `http://localhost:8080/DistributorBack_war/api/distributor/getAllDistributorsDto`);
+    req.open('GET', `http://swimlane.github.io/ngx-datatable/assets/data/company.json`);
+    req.onload = () => {
+      const data = JSON.parse(req.response);
+      cb(data);
+    }, err => {
+      console.log(err);
+    };
+    req.send();
+  }
+
+  
+
 }
 
